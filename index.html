@@ -58,6 +58,13 @@
 .social-icon:hover {
     color: #B9BBBE;
 }
+
+#landing-resume-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
 </style>
 
 <body>
@@ -232,8 +239,11 @@
                     I build immersive web experiences.
                 </text>
 
-                <foreignObject x="8" y="250" height="100" width="300" requiredExtensions="http://www.w3.org/1999/xhtml">
-                    <div id="landing-cta-button" class="big-button orange-hover">Get in touch</div>
+                <foreignObject x="8" y="250" height="100" width="460" requiredExtensions="http://www.w3.org/1999/xhtml">
+                    <div style="display:flex;flex-direction:row;align-items:center;gap:16px;">
+                        <div id="landing-cta-button" class="big-button orange-hover">Get in touch</div>
+                        <a id="landing-resume-button" class="big-button orange-hover" href="/resume.png" target="_blank" rel="noopener noreferrer">Resume</a>
+                    </div>
                 </foreignObject>
             </svg>
         </section>
