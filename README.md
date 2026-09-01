@@ -17,6 +17,9 @@ A visually immersive and interactive **personal portfolio website**, designed to
 - **GSAP + ScrollTrigger** — High-performance scroll-based animations
 - **Blender** — 3D modeling, lighting & texture baking
 
+
+<img width="898" height="592" alt="image" src="https://github.com/user-attachments/assets/d53de146-d10b-4130-abd3-2c7af81ee406" />
+
 ---
 
 ## ✨ Key Features
